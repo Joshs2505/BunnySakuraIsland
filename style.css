@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(#fdf6f0, #dbe9f4);
+  color: #6b4c3b;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #bf5c70;
+}
+
+#game-board {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  background-color: #fff3f8;
+  border: 4px solid #e2a8bc;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#bunny {
+  font-size: 32px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+#spinner {
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+  background-color: #ffe0ea;
+  border: 3px solid #d28fa8;
+  border-radius: 50%;
+  line-height: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#spinner:hover {
+  transform: scale(1.1);
+  background-color: #ffd0e2;
+}
+
+button {
+  margin: 15px;
+  padding: 10px 20px;
+  background-color: #f4cce2;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #6b4c3b;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e9b6cf;
+}
+
+#shells, #mini-game, #bloom-zone {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff5f9;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dashed #e7a2b8;
+}
