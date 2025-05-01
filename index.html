@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BunnySakuraIslands</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome, Akasha... A magical journey awaits.</h1>
+
+  <div id="game-board">
+    <div id="bunny">🐇</div>
+    <!-- We'll style this and place the bunny with JS -->
+  </div>
+
+  <div id="spinner" onclick="spin()">SPIN</div>
+  <p id="spin-result"></p>
+
+  <div id="shells">Sakura Shells Collected: <span id="shell-count">0</span></div>
+
+  <div id="mini-game">
+    <h3>Shell Sorting Festival</h3>
+    <button onclick="playMiniGame()">Play Mini-Game</button>
+    <p id="mini-game-result"></p>
+  </div>
+
+  <div id="bloom-zone">
+    <h3>Ocean Bloom Zone</h3>
+    <button onclick="searchForBloom()">Search for the Bloom</button>
+    <p id="bloom-result"></p>
+  </div>
+
+  <button onclick="restartGame()">Restart Game</button>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
