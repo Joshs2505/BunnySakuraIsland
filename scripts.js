@@ -1,10 +1,4 @@
-let bunny = document.getElementById("bunny");
-let shellCount = 0;
-let position = 0;
-
-// Simulate a 3x3 grid of positions (9 spots total)
-const gridSize = 3;
-const cellSize = 100;
+;
 
 function spin() {
   let move = Math.floor(Math.random() * 4) + 1; // 1–4 spaces
